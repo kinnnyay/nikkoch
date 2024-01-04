@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0;">
+  <title>Nikko Ch</title>
+  <link rel="website icon" type="png" href="pngegg.png">
+  <link rel="stylesheet" href="style.css" />
+  <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″ />
+</head>
+
+<body>
+  <!-- fx -->
+  <script src="./pure-snow.js" defer></script>
+  <div id="snow" data-count="200"></div>
+  <!-- end fx -->
+
+  <div id="header">
+    <div class="container">
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#header"> Home </a></li>
+          <li><a href="#about"> About </a></li>
+          <li><a href="#services"> Services </a></li>
+          <li><a href="#portofolio"> Gallery </a></li>
+          <li><a href="#contact"> Others </a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="'fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <b>Student</b>
+        <h1>Hi, I'm <span>Nikko Christian</span><br /> Buka di desktop untuk hasil yang optimal :D</h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="IMG_8156.JPG" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title"> About Me</h1>
+          <p>Halo, Semua di bawah ini cuman ngarang karena gatau mau nulis apa :D. Ini Website buatanku yang pertama. <a
+              href="https://xch.okinn.repl.co/"> Klik di sini </a> untuk melihat yang kedua. Mengingat ini adalah bulan
+            Desember, jadinya website ini dilengkapi dengan turunnya salju dan juga
+            background musik bertemakan natal yang bisa kalian play di bawah ini :D </p>
+          <audio autoplay controls loop>
+            <source src="1.mp3" itemtype="audio/mp3">
+            </source>
+          </audio>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')"> Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')"> Experience
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Education
+            </p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br /> Designing web/App interface</li>
+              <li>
+                <span>Web Developer</span><br /> Designing App Interface
+              </li>
+              <li>
+                <span>App Development</span><br />Building Android/IOS apps
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2021-2023</span><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad ea aliquam
+                iure doloribus laudantium nihil eius maxime in nobis?</li>
+              <li><span>2019-2021</span><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+                suscipit, ut harum maiores debitis minima!</li>
+              <li><span>2005-2023</span><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                cupiditate earum reprehenderit nemo ea quisquam aut inventore excepturi?</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021-2023</span><br /> Vivamus eu laoreet arcu, id sollicitudin libero.</li>
+              <li><span>2019-2021</span><br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li><span>2005-2023</span><br /> Curabitur vitae malesuada ante, eu sollicitudin enim.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="services">
+    <div class="container">
+      <h1 class="'sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aut ratione repellendus animi
+            consequatur, quos delectus nihil, illo error saepe harum dolores, porro ex? Reiciendis quam iusto in autem
+            distinctio.</p>
+          <a href="#">Learn more (ga ada apa2 klo dipencet)</a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-crop-simple"></i>
+          <h2> UI/UX Design</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem repellat quas ducimus reprehenderit
+            dolorum fugit sit optio nemo quibusdam tempora.</p>
+          <a href="#">Learn More (ga ada apa2 klo dipencet)</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2> App Design </h2>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium modi et officiis non corrupti
+            repellat assumenda quibusdam quos? Quaerat repudiandae vero debitis totam!</p>
+          <a href="#">Learn More (ga ada apa2 klo dipencet)</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portofolio">
+    <div class="container">
+      <h1 class="sub-title"> Gallery</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="DSCF2913.JPG" />
+          <div class="layer">
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"> </i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="IMG_8124.JPG" />
+          <div class="layer">
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="IMG_8027.JPG" />
+          <div class="layer">
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="DSCF2633.JPG" />
+          <div class="layer">
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="1693018089280.JPG" />
+          <div class="layer">
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="1693018089293.JPG" />
+          <div class="layer">
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="1693018089287.JPG" />
+          <div class="layer">
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="1693018089272.JPG" />
+          <div class="layer">
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title"> Others</h1>
+          <div class="link1">
+            <a href="https://open.spotify.com/user/21l5exsokylmfxw5hl5m4b6fa?si=qPKeK7qkQXWI5rJeXfE8Sg&nd=1"
+              target="_blank">Spotify</a>
+            <a href="https://forms.gle/NUGFn63b3kYE1x8s9" target="_blank">Anonymous Message</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright @nikkoch._ <br /> Dibuat dengan HTML, CSS, & JS.
+      </p>
+
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemeu.style.right = "0";
+    }
+    function closemenu() {
+      sidemeu.style.right = "-200px";
+    }
+  </script>
+
+
+
+</body>
+
+</html>
